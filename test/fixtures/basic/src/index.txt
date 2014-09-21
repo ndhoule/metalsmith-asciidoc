@@ -1,0 +1,3 @@
+== Asciidoc Roolz
+
+OMG it's _WAY_ better than *Markdown*, or any of those other markup languages.

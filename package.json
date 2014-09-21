@@ -1,0 +1,30 @@
+{
+  "name": "metalsmith-asciidoc",
+  "version": "1.0.0",
+  "description": "A Metalsmith plugin to convert asciidoc files.",
+  "author": "Nathan Houle <nathan@nathanhoule.com> (http://nathanhoule.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndhoule/metalsmith-asciidoc.git"
+  },
+  "bugs": "https://github.com/ndhoule/metalsmith-asciidoc/issues",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "metalsmith",
+    "metalsmith-plugin",
+    "plugin"
+  ],
+  "dependencies": {
+    "asciidoctor.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^0.11.0",
+    "mocha": "^1.21.4"
+  }
+}
