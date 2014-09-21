@@ -2,6 +2,12 @@
 
 A Metalsmith plugin to convert asciidoc files.
 
+###### Build Status
+
+Branch | Status
+---    | ---   
+master | ![Master](https://travis-ci.org/ndhoule/metalsmith-asciidoc.svg?branch=master) | ![Master Dependencies](https://david-dm.org/ndhoule/metalsmith-asciidoc.svg?style=flat)
+
 
 ## Installation
 
