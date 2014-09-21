@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "0.10"
+  - '0.10'
+deploy:
+  provider: npm
+  email: nathan@nathanhoule.com
+  on:
+    tags: true
+  api_key:
+    secure: XqIdL8v1nJnc6Bs/+0YKEethWw6git8L2fRvXT6hGpnlBSwIpIcOG9V4PokBmcpCaNJcVPL4/RshcSepxsJ3/fnDLtH6zydnuAi/nyYxmG7Ko2YjSJrHOXXQnwkjXQKxzHz1FJTCCipt7pFkwsCN1fqevknIUF4szOv5czq5F6E=
