@@ -22,7 +22,7 @@
     "plugin"
   ],
   "dependencies": {
-    "asciidoctor.js": "^1.5.0"
+    "asciidoctor.js": "1.5.5-4"
   },
   "devDependencies": {
     "assert": "^1.1.2",
