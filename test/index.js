@@ -19,4 +19,22 @@ describe('metalsmith-asciidoc', function() {
         done();
       });
   });
+
+  it ('should accept options', function(done) {
+    Metalsmith('test/fixtures/options')
+      .use(asciidoc({
+        attributes: {
+          notitle: false
+        }
+      }))
+      .build(function(err) {
+        if (err) {
+          return done(err);
+        }
+
+        equal('test/fixtures/options/expected', 'test/fixtures/options/build');
+
+        done();
+      });
+  });
 });
